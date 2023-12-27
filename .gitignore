@@ -5,6 +5,9 @@ target/
 
 ### IntelliJ IDEA ###
 .idea/
+target/
+docs/
+*.log
 *.iws
 *.iml
 *.ipr
@@ -33,3 +36,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
