@@ -7,11 +7,11 @@ import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.steps.UIInteractions;
 import org.junit.Assert;
 
-public class commonSteps extends UIInteractions {
+public class commonWebSteps extends UIInteractions {
     HabrPage pageHabr = new HabrPage();
 
     @Когда("^открыть url habr.com$")
-    public void openURLYa() {
+    public void openURL() {
         String url = "https://habr.com/ru/feed/";
         openUrl(url);
         Serenity.recordReportData().withTitle("View log").andContents("URL :" + url + " успешно открыт в браузере");
